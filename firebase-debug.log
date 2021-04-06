@@ -1,0 +1,47 @@
+[debug] [2021-04-06T15:45:13.621Z] ----------------------------------------------------------------------
+[debug] [2021-04-06T15:45:13.623Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-06T15:45:13.623Z] CLI Version:   9.8.0
+[debug] [2021-04-06T15:45:13.623Z] Platform:      win32
+[debug] [2021-04-06T15:45:13.624Z] Node Version:  v15.6.0
+[debug] [2021-04-06T15:45:13.625Z] Time:          Tue Apr 06 2021 21:15:13 GMT+0530 (India Standard Time)
+[debug] [2021-04-06T15:45:13.625Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-06T15:45:13.633Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-06T15:45:13.633Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Technologies\React\React-websites\Madcapfinal
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using madcap-5c1ce. 
+[debug] [2021-04-06T15:45:17.619Z] > refreshing access token with scopes: []
+[debug] [2021-04-06T15:45:17.619Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-04-06T15:45:17.972Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Tue, 06 Apr 2021 15:45:18 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-04-06T15:45:17.991Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/madcap-5c1ce [none]
+[debug] [2021-04-06T15:45:18.665Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/madcap-5c1ce 200
+[debug] [2021-04-06T15:45:18.665Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/madcap-5c1ce {"projectId":"madcap-5c1ce","projectNumber":"541724415492","displayName":"madcap","name":"projects/madcap-5c1ce","resources":{"hostingSite":"madcap-5c1ce","storageBucket":"madcap-5c1ce.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
