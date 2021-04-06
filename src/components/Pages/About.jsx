@@ -226,7 +226,7 @@ const About = () => {
                         <div className="single-item col-lg-4 col-md-6">
                             <div className="item">
                                 <div className="thumb">
-                                    <img src="founder1.jpg" alt="Thumb" style={{ height: "120px", width: "120px" }} />
+                                    <img src="Founder1.jpg" alt="Thumb" style={{ height: "120px", width: "120px" }} />
 
                                 </div>
                                 <div className="info">
